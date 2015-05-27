@@ -1,0 +1,14 @@
+# Generated files
+build/
+*/build/
+
+# Gradle files
+.gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Jetbrains
+*.iml
+.idea/libraries/
+.idea/workspace.xml
