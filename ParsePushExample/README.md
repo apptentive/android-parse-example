@@ -8,8 +8,10 @@ Please refer to the [Parse push notification documentation](http://www.apptentiv
 
 This app requires that you copy in your Parse Push Notification credentials, and your Apptentive API Key.
 
-1. In `ParseExampleApplication.java`, provide your **Parse** **_Application ID_** and **_Client Key_**.
-2. In `gradle.properties`, provide your **_Apptentive API Key_**. If you do not yet have one, create an account and an Android app at [https://be.apptentive.com](be.apptentive.com), then copy your API Key [here](https://be.apptentive.com/apps/current/settings/api)
+1. If you do not yet have one, create an account and an Android app at [be.apptentive.com](https://be.apptentive.com)
+2. In [Apptentive's Parse Integration](https://be.apptentive.com/apps/current/settings/integrations), set your **Parse** _**Application ID**_ and _**REST API Key**_.
+3. In `ParseExampleApplication.java`, provide your **Parse** **_Application ID_** and **_Client Key_**.
+2. In `gradle.properties`, provide your **_Apptentive API Key_**. You can copy it from [here](https://be.apptentive.com/apps/current/settings/api)
 
 # Running
 
